@@ -20,12 +20,12 @@ jobs:
       uses: actions/setup-go@v4
       with:
         go-version: '1.20'
-        
+
     - name: Build Syntax
       run: go build -v ./syntax.go
 
     - name: Build Data Types
-      run: go build -v ./date-types.go  
+      run: go build -v ./data-types.go  
       
     - name: Build Variables
       run: go build -v ./variables.go

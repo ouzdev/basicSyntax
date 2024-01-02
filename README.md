@@ -1,4 +1,4 @@
-# Go Basic Syntax
+# Go Learn The Basics
 ![Go Workflow](https://github.com/ouzdev/go-learn-the-basics/workflows/Go/badge.svg)
 
 
@@ -44,3 +44,4 @@ There's also a compact version provided in the comments, but it's not recommende
 
 ```go
 package main; import "fmt"; func main() {fmt.Println("Hello, World!")}
+```

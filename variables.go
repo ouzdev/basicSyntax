@@ -14,4 +14,11 @@ func main() {
 	fmt.Println("Default values:", i, net, signalR, entityFramework)
 
 	//Output: Default Values: 0 false false false
+
+	/* ':=' syntax is shorthand for declaring and initializing a variable, e.g. for var pms = "Simpra PMS" in this case.
+	This syntax is only available inside functions.
+	*/
+	pms := "Simpra PMS"
+	fmt.Println(pms)
+
 }

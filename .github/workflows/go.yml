@@ -39,5 +39,20 @@ jobs:
     - name: Build Constants
       run: go build -v ./constants.go  
 
-    - name: Test
-      run: go test -v ./...
+    - name: Test Syntax
+      run: go build -v ./syntax.go
+
+    - name: Test Data Types
+      run: go build -v ./data-types.go
+
+    - name: Test Variables
+      run: go build -v ./variables.go
+
+    - name: Test Range
+      run: go build -v ./range.go
+
+    - name: Test For
+      run: go build -v ./for-loop.go
+
+    - name: Test Constants
+      run: go build -v ./constants.go

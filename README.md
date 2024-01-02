@@ -1,5 +1,5 @@
 # Go Basic Syntax
-![Go Workflow](https://github.com/ouzdev/basicSyntax/workflows/Go/badge.svg)
+![Go Workflow](https://github.com/ouzdev/go-learn-the-basics/workflows/Go/badge.svg)
 
 
 This is a simple Go program that prints "Hello, World!" to the console.

@@ -13,13 +13,13 @@ To run this program on your local machine, follow these steps:
 2. Clone this repository:
 
     ```bash
-    git clone https://github.com/ouzdev/basicSyntax.git
+    git clone https://github.com/ouzdev/go-learn-the-basics
     ```
 
 3. Navigate to the project directory:
 
     ```bash
-    cd basicSyntax
+    cd go-learn-the-basics
     ```
 
 4. Run the program:

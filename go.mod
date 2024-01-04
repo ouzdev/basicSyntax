@@ -1,1 +1,1 @@
-module basicSyntax
+module go-learn-the-basics

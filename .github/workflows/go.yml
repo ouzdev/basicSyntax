@@ -22,37 +22,49 @@ jobs:
         go-version: '1.20'
 
     - name: Build Syntax
-      run: go build -v ./syntax.go
+      run: go build -v ./1-syntax.go
 
     - name: Build Data Types
-      run: go build -v ./data-types.go  
+      run: go build -v ./2-data-types.go
       
     - name: Build Variables
-      run: go build -v ./variables.go
+      run: go build -v ./3-variables.go
 
     - name: Build Range
-      run: go build -v ./range.go
+      run: go build -v ./4-range.go
 
     - name: Build For
-      run: go build -v ./for-loop.go
+      run: go build -v ./5-for-loop.go
 
     - name: Build Constants
-      run: go build -v ./constants.go  
+      run: go build -v ./6-constants.go
+
+    - name: Build Error Example
+      run: go build -v ./7-error-example.go
+
+    - name: Build Routine
+      run: go build -v ./8-go-routine.go
 
     - name: Test Syntax
-      run: go build -v ./syntax.go
+      run: go build -v ./1-syntax.go
 
     - name: Test Data Types
-      run: go build -v ./data-types.go
+      run: go build -v ./2-data-types.go
 
     - name: Test Variables
-      run: go build -v ./variables.go
+      run: go build -v ./3-variables.go
 
     - name: Test Range
-      run: go build -v ./range.go
+      run: go build -v ./4-range.go
 
     - name: Test For
-      run: go build -v ./for-loop.go
+      run: go build -v ./5-for-loop.go
 
     - name: Test Constants
-      run: go build -v ./constants.go
+      run: go build -v ./6-constants.go
+
+    - name: Test Error Example
+      run: go build -v ./7-error-example.go
+
+    - name: Test Routine
+      run: go build -v ./8-go-routine.go
